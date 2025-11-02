@@ -11,7 +11,7 @@ El servicio de inteligencia inglés pudo capturar documentación útil que facil
 ## Requisitos
 
 * Python 3.9 o superior
-* Biblioteca `rich` para impresión en consola
+* Archivo `requirements.txt` con las dependencias del proyecto
 
 ## Instalación y Entorno Virtual
 
@@ -38,16 +38,10 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-2. Instalar dependencias:
+2. Instalar dependencias desde `requirements.txt`:
 
 ```
-pip install rich
-```
-
-3. Crear `requirements.txt`:
-
-```
-pip freeze > requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Configuración
